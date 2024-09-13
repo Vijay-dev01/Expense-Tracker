@@ -3,10 +3,11 @@ const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 const mongoose = require("mongoose");
 const Router = require("./routers");
-dotenv.config({ path: "./config.env" });
+dotenv.config({ path: "config/config.env" });
+
 const app = express();
 
-const dbURI = process.env.DATABASE;
+const dbURI = process.env.DB_LOCAL_URL;
 const port = process.env.PORT || 5000;
 
 app.use(express.static("public"));
