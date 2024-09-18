@@ -44,6 +44,10 @@ export default function Home(props) {
           "rgba(54, 162, 235, 0.4)",
           "rgba(153, 102, 255, 0.4)",
           "rgba(201, 203, 207, 0.4)",
+          "rgba(102, 51, 153, 0.4)", // Purple
+          "rgba(0, 128, 128, 0.4)", // Teal
+          "rgba(255, 69, 0, 0.4)", // Red-Orange
+          "rgba(128, 0, 128, 0.4)", // Dark Purple
         ],
       },
     ],
@@ -94,6 +98,10 @@ export default function Home(props) {
                 "rgba(54, 162, 235, 0.4)",
                 "rgba(153, 102, 255, 0.4)",
                 "rgba(201, 203, 207, 0.4)",
+                "rgba(102, 51, 153, 0.4)", // Purple
+                "rgba(0, 128, 128, 0.4)", // Teal
+                "rgba(255, 69, 0, 0.4)", // Red-Orange
+                "rgba(128, 0, 128, 0.4)", // Dark Purple
               ],
               borderColor: [
                 "rgb(255, 99, 132)",
@@ -103,6 +111,10 @@ export default function Home(props) {
                 "rgb(54, 162, 235)",
                 "rgb(153, 102, 255)",
                 "rgb(201, 203, 207)",
+                "rgba(102, 51, 153)", // Purple
+                "rgba(0, 128, 128)", // Teal
+                "rgba(255, 69, 0)", // Red-Orange
+                "rgba(128, 0, 128)", // Dark Purple
               ],
               borderWidth: 1,
             },

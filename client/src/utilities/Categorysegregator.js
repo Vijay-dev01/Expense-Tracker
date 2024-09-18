@@ -7,6 +7,9 @@ module.exports.Segregator = (data) => {
     Shopping: 0,
     Travel: 0,
     Food: 0,
+    Investment: 0,
+    UnKnown_Expenses: 0,
+    Health_Care: 0,
   };
   let total = 0;
 

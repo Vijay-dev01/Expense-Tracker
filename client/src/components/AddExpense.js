@@ -106,6 +106,9 @@ const AddExpense = (props) => {
               <option value="Shopping">Shopping</option>
               <option value="Travel">Travel</option>
               <option value="Fun">Fun</option>
+              <option value="Investment">Investment</option>
+              <option value="UnKnown_Expenses">UnKnown_Expenses</option>
+              <option value="Health_Care">Health_Care</option>
             </select>
           </div>
           <div className="border-rp-yellow border-2 rounded-md w-fit px-8 mt-10">
